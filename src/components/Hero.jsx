@@ -7,7 +7,6 @@ import herobg from '../assets/herobg.png'
 const Hero = () => {
   return (
     <section style={{ backgroundImage:`url(${herobg})`, backgroundRepeat:'no-repeat',backgroundSize:'cover' }} className={`relative w-full h-screen mx-auto`}>
-      {/* <img src={herobg} className="w-full h-screen -z-1" /> */}
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >

@@ -19,7 +19,7 @@ const ProjectsCard =({index,name,description,tags,image,source_code_link})=>{
           scale:1,
           speed:450,
         }}
-        className='bg-[#172b49] p-5 rounded-2xl sm-w-[360px] w-[340px]'
+        className='bg-[#172b49] p-5 rounded-2xl sm-w-[100%] width w-[340px]'
         >
           <div className='relative w-full h-[230px] '>
            <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
@@ -36,7 +36,7 @@ const ProjectsCard =({index,name,description,tags,image,source_code_link})=>{
             <h1 className='text-white font-bold text-[24px]'>{name}</h1>
             <p className='text-[#dbd6d6] mt-2  text-[14px]'>{description}</p>
           </div>
-          <div className="mt-4 flex flex-wrap gap-3">
+          <div className="mt-4 flex flex-wrap gap-3 justify-center">
             {tags.map((tag,index)=>(
               <p key={tag.name} className={`text-[14px] ${tag.color}`}> #{tag.name}</p>
             ))}
@@ -64,7 +64,7 @@ const Works = () => {
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sed illo asperiores!
     </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 justify-center">
       {projects.map((project,index)=>(
           <ProjectsCard  key={`project-${index}`} {...project} index={index}/>
       ))}

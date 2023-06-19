@@ -22,7 +22,7 @@ const Contact = () => {
   const handleSubmit = () =>{}
 
   return (
-   <div className='xl:mt-12 xl:flex-row flex flex-row-reverse overflow-hidden gap-10'>
+   <div className='xl:mt-12 xl:flex col flex flex-row-reverse overflow-hidden gap-10'>
     <motion.div variants={slideIn('left','tween',0.2 ,1)} className='flex-[0.75] bg-[#141b31] p-8 rounded-2xl'>
       <p  className={`${styles.sectionSubText}`}>Get in Touch</p>
       <h3 className={`${styles.sectionHeadText}`}>Contact.</h3>

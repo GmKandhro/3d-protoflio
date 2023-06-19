@@ -17,14 +17,14 @@ const FeedBackCard =({index , testimonial,company,name,image,designation})=>(
   >
 <motion.div 
 variants={fadeIn('','spring',index*0.5,0.75)}
-className='bg-[#14233f] p-10 rounded-3xl xs:w-[320px] w-[320px]'
+className='bg-[#14233f] p-10 rounded-3xl xs:w-[320px] w-[320px] width'
 >
   <p className='text-white font-black text-[48px]'>"</p>
   <div className="mt-1">
   <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
   <div className='mt-7 flex justify-between items-center gap1'>
     <div className="flex flex-1 flex-col">
-      <p className='text-white font-medium text-[16px]'>
+      <p classNam='text-white font-medium text-[16px]'>
         <span>@</span> {name}
       </p>
       <p className='blue-text-gradient mt-1 text-[12px]'>
@@ -50,7 +50,7 @@ const Feedbacks = () => {
    </motion.div>
     </div>
    
-   <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
+   <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 justify-center`}>
     {testimonials.map((testimonial , index)=>(
       <FeedBackCard  key={testimonial.name} index={index} {...testimonial}/>
     ))} 
