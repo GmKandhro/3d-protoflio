@@ -1,11 +1,14 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 import { Link } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Navbar = () => {
+  const { loginWithRedirect,logout,isAuthenticated,user } = useAuth0();
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
@@ -40,6 +43,22 @@ const Navbar = () => {
               </li>
             );
           })}
+          {isAuthenticated && <p className="m-auto">Welcome {user.name}</p>}
+          {
+            isAuthenticated ? (
+              <li>
+
+              <button  className="px-[14px] py-[4px] bg-[#402c77] border-r-2" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+              Log Out
+            </button>
+              </li>
+            ) : (
+              <li>
+          <button className="px-[14px] py-[4px] bg-[#402c77] border-r-2" onClick={() => loginWithRedirect()}>Log In</button>
+          </li>
+            )
+          }
+          
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">

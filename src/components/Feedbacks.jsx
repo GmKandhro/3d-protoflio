@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/no-unknown-property */
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { fadeIn,textVariant } from '../utils/motion'
@@ -6,6 +6,7 @@ import { SectionWrapper } from '../hoc'
 import { testimonials } from '../constants'
 import { Tilt } from 'react-tilt'
 
+// eslint-disable-next-line react-refresh/only-export-components, react/prop-types
 const FeedBackCard =({index , testimonial,company,name,image,designation})=>(
   <Tilt
   options={{
@@ -19,7 +20,7 @@ const FeedBackCard =({index , testimonial,company,name,image,designation})=>(
 variants={fadeIn('','spring',index*0.5,0.75)}
 className='bg-[#14233f] p-10 rounded-3xl xs:w-[320px] w-[320px] width'
 >
-  <p className='text-white font-black text-[48px]'>"</p>
+  <p className='text-white font-black text-[48px]'></p>
   <div className="mt-1">
   <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
   <div className='mt-7 flex justify-between items-center gap1'>
@@ -39,6 +40,7 @@ className='bg-[#14233f] p-10 rounded-3xl xs:w-[320px] w-[320px] width'
 </Tilt>
 )
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Feedbacks = () => {
   return (
     <div className="mt12 bg-[#8a8a8a] rounded-[20px]">
@@ -59,4 +61,5 @@ const Feedbacks = () => {
   )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default SectionWrapper(Feedbacks,'')
