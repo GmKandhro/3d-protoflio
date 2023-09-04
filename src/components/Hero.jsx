@@ -7,6 +7,8 @@ import { BsFacebook } from 'react-icons/bs';
 // import { AiOutlineaedin} from 'react-icons/ai'
 import { BiLogoUpwork} from 'react-icons/bi'
 import { TbBrandFiverr} from 'react-icons/tb'
+import photo from '../assets/photo.jpg'
+
 
 
 
@@ -35,7 +37,7 @@ const Hero = () => {
 
       <div className='flex lg:mt-10 justify-center items-center  lg:mr-12 z-[100] relative'>
       
-      <img width={600} height={200} alt='herosection' className='rounded-[100px] w-[400px] md:w-[340px] border-4 opacity-[0.8]' src='../public/img.jpg' />
+      <img width={600} height={200} alt='herosection' className='rounded-[100px] w-[400px] md:w-[340px] border-4 opacity-[0.8]' src={photo} />
       <div className='flex flex-row md:flex-col md:static absolute bottom-[12px] text-white text-[26px] md:ml-4 px-2 py-4  rounded-[60px] bg-[#353232] mt-5 gap-4 '>
       <a target="_blank" href='https://www.fiverr.com/mustafa4085' rel="noreferrer"><TbBrandFiverr className='cursor-pointer hover:text-[#8d8888]'/></a>
         <a target="_blank" href='https://www.upwork.com/freelancers/~01f5cde1b15b86b152' rel="noreferrer"><BiLogoUpwork className='cursor-pointer hover:text-[#8d8888]'/></a>

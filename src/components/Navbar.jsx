@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import {  menu, close } from "../assets";
 import { Link } from "react-router-dom";
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
  
@@ -23,7 +24,7 @@ const Navbar = () => {
             window.scroll(0, 0);
           }}
         >
-          <img src='../public/logo.png' className="w-18 h-14 object-contain " alt="" />
+          <img src={logo} className="w-18 h-14 object-contain " alt="" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             &nbsp;<span className="sm:block hidden">| Graphics</span>
           </p>
