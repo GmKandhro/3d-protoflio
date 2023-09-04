@@ -41,10 +41,9 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-[#a7a4a4] text-[17px] max-w-3xl leading-[30px]"
-      > I'm a skilled softer developer and work expreience in reactjs,nextjs,
-        and tailwind css Lorem, ipsum dolor sit amet consectetur adipisicing
-        elit. Perspiciatis sed illo asperiores!
+        className="mt-4 text-[#a7a4a4] text-[17px] max-w-4xl leading-[30px]"
+      > Hello! I am a seasoned Graphic Designer with a passion for translating ideas into visually compelling experiences. With a keen eye for detail and a flair for creativity, I have successfully delivered a wide range of design projects that communicate brand messages effectively. My goal is to collaborate with clients to produce engaging designs that resonate with their target audience and leave a lasting impact.
+
       </motion.p>
 
       <div className="flex flex-wrap mt-20 gap-10 justify-center">

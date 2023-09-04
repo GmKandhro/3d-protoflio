@@ -3,12 +3,11 @@ import React, { useEffect, useState } from "react";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import {  menu, close } from "../assets";
 import { Link } from "react-router-dom";
-import { useAuth0 } from "@auth0/auth0-react";
 
 const Navbar = () => {
-  const { loginWithRedirect,logout,isAuthenticated,user } = useAuth0();
+ 
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
@@ -24,9 +23,9 @@ const Navbar = () => {
             window.scroll(0, 0);
           }}
         >
-          <img src={logo} className="w-9 h-9 object-contain " alt="" />
+          <img src='../public/logo.png' className="w-18 h-14 object-contain " alt="" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Gm&nbsp;<span className="sm:block hidden">| Kandhro</span>
+            &nbsp;<span className="sm:block hidden">| Graphics</span>
           </p>
         </Link>
         <ul className="list-none sm:flex hidden flex-row gap-10">
@@ -43,21 +42,7 @@ const Navbar = () => {
               </li>
             );
           })}
-          {isAuthenticated && <p className="m-auto">Welcome {user.name}</p>}
-          {
-            isAuthenticated ? (
-              <li>
-
-              <button  className="px-[14px] py-[4px] bg-[#402c77] border-r-2" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
-              Log Out
-            </button>
-              </li>
-            ) : (
-              <li>
-          <button className="px-[14px] py-[4px] bg-[#402c77] border-r-2" onClick={() => loginWithRedirect()}>Log In</button>
-          </li>
-            )
-          }
+         
           
         </ul>
 

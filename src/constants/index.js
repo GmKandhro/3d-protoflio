@@ -3,26 +3,21 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
+ 
+  
+ figma,
+ 
   starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+ ai,
+  canva,
+  ps,
+  xd,
+  ld,
+  p,
+  icon123
 } from "../assets";
 
 export const navLinks = [
@@ -42,131 +37,108 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Logo Desiner",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Podcast Cover Designer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Thumbnail  Designer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Menu Design",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "ps",
+    icon: ai,
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: ps,
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: canva,
   },
   {
     name: "TypeScript",
-    icon: typescript,
+    icon: icon123,
   },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: xd,
   },
   {
     name: "Redux Toolkit",
-    icon: redux,
+    icon: p,
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: ld,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
+    name: "Tailwind CSS",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
+ 
+ 
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Graphic designer",
+    company_name: "Faisal School",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with a local school to design print-ready banners.",
+      "Created visually appealing banner designs tailored to school events.",
+      "Ensured designs met print specifications for high-quality banners.",
+      "Incorporated school branding and themes into the banner designs.",
+      "Worked closely with the school staff to gather design requirements.",
+      "Produced banners suitable for various school functions and occasions.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Graphic designer",
+    company_name: "Faisal School",
+    icon: starbucks,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2022 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with a local school to design print-ready banners.",
+      "Created visually appealing banner designs tailored to school events.",
+      "Ensured designs met print specifications for high-quality banners.",
+      "Incorporated school branding and themes into the banner designs.",
+      "Worked closely with the school staff to gather design requirements.",
+      "Produced banners suitable for various school functions and occasions.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Graphic designer",
+    company_name: "Faisal School",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "March 2022 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with a local school to design print-ready banners.",
+      "Created visually appealing banner designs tailored to school events.",
+      "Ensured designs met print specifications for high-quality banners.",
+      "Incorporated school branding and themes into the banner designs.",
+      "Worked closely with the school staff to gather design requirements.",
+      "Produced banners suitable for various school functions and occasions.",
     ],
   },
+ 
 ];
 
 const testimonials = [

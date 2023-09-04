@@ -7,21 +7,16 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import ai from "./tech/ai.png";
+import canva from "./tech/canva.jpg";
+import icon123 from "./tech/icon123.png";
+import ld from "./tech/ld.jpg";
+import p from "./tech/p.png";
+import ps from "./tech/ps.jpg";
+import xd from "./tech/xd.png";
 import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
+
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -39,24 +34,16 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  ai,
+canva,
+icon123,
+ld,
+p,
+ps,
+xd,
   carrent,
   jobit,
   tripguide,
+  starbucks,
+  figma
 };

@@ -1,36 +1,52 @@
+/* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import herobg from '../assets/herobg.png'
+import { BsFacebook } from 'react-icons/bs';
+// import { AiOutlineaedin} from 'react-icons/ai'
+import { BiLogoUpwork} from 'react-icons/bi'
+import { TbBrandFiverr} from 'react-icons/tb'
+
+
 
 const Hero = () => {
   return (
-    <section style={{ backgroundImage:`url(${herobg})`, backgroundRepeat:'no-repeat',backgroundSize:'cover' }} className={`relative w-full h-screen mx-auto`}>
+    <section style={{ backgroundImage:`url(${herobg})`, backgroundRepeat:'no-repeat',backgroundSize:'cover' }} className={`relative w-full h-screen z-[-1] flex flex-col mt-[0px] lg:flex-row justify-between`}>
+
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={` inset-0 mt-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
-        <div className='flex flex-col justify-center items-center mt-5'>
+        <div className=' flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Gm Kandhro</span>
+            Hi, I'm <span className='text-[#915EFF]'>Shahzad</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            Graphic designer <br className='sm:block hidden' />
+            create best designs and logos
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div className='flex lg:mt-10 justify-center items-center  lg:mr-12 z-[100] relative'>
+      
+      <img width={600} height={200} alt='herosection' className='rounded-[100px] w-[400px] md:w-[340px] border-4 opacity-[0.8]' src='../public/img.jpg' />
+      <div className='flex flex-row md:flex-col md:static absolute bottom-[12px] text-white text-[26px] md:ml-4 px-2 py-4  rounded-[60px] bg-[#353232] mt-5 gap-4 '>
+      <a target="_blank" href='https://www.fiverr.com/mustafa4085' rel="noreferrer"><TbBrandFiverr className='cursor-pointer hover:text-[#8d8888]'/></a>
+        <a target="_blank" href='https://www.upwork.com/freelancers/~01f5cde1b15b86b152' rel="noreferrer"><BiLogoUpwork className='cursor-pointer hover:text-[#8d8888]'/></a>
+        
+        <a target="_blank" href='https://www.facebook.com/' rel="noreferrer"><BsFacebook className='cursor-pointer hover:text-[#8d8888]'/></a>
+        {/* <a target="_blank" href='https://www.aedin.com/' rel="noreferrer"><AiOutlineaedin className='cursor-pointer hover:text-[#8d8888]'/></a> */}
+      </div>
     <div className="z-12">
 
     </div>
-
+</div>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
