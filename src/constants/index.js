@@ -4,10 +4,12 @@ import {
   creator,
   web,
  figma,
+ faisalLogo,
   starbucks,
   carrent,
   jobit,
   tripguide,
+  aclogo,
  ai,
   canva,
   ps,
@@ -103,7 +105,7 @@ const experiences = [
   {
     title: "Graphic designer",
     company_name: "Faisal School",
-    icon: starbucks,
+    icon: faisalLogo,
     iconBg: "#383E56",
     date: "March 2022 - April 2021",
     points: [
@@ -118,9 +120,9 @@ const experiences = [
   {
     title: "Graphic designer",
     company_name: "Nayab academy",
-    icon: starbucks,
+    icon: aclogo,
     iconBg: "#383E56",
-    date: "March 2022 - April 2021",
+    date: "April 2023 - May 2023",
     points: [
       "Produced banners suitable for various school functions and occasions.",
       "Ensured designs met print specifications for high-quality banners.",

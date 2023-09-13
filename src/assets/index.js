@@ -29,8 +29,9 @@ import img10 from "./17.jpeg";
 
 
 import shopify from "./company/shopify.png";
+import aclogo from "./ac-logo.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import faisalLogo from "./faisal-logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -53,6 +54,7 @@ p,
 ps,
 xd,
   carrent,
+  aclogo,
   jobit,
   tripguide,
   starbucks,
@@ -66,5 +68,6 @@ img6 ,
 img7 ,
 img8 ,
 img9 ,
-img10
+img10,
+faisalLogo
 };

@@ -44,10 +44,7 @@ const Works = () => {
     variants= {fadeIn('','',0.1,1)}
     className='mt-3 text-[#a7a4a4] text-[17px] max-w-3xl leading-[30px]'
     >
-      I'm a skilled softer developer and work expreience in reactjs,nextjs, and tailwind css 
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sed illo asperiores!
-      I'm a skilled softer developer and work expreience in reactjs,nextjs, and tailwind css 
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sed illo asperiores!
+      Experience and Expertise: I bring 2 years of experience in the field of graphic design, during which I have honed my skills across various design disciplines. My portfolio showcases a diverse array of projects, including branding, web graphics, social media content, and more. I am well-versed in industry-standard design tools such as Adobe Creative Suite (Photoshop, Illustrator,), ensuring the highest quality output.
     </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-7 justify-center">
