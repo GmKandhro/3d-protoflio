@@ -3,10 +3,7 @@ import {
   backend,
   creator,
   web,
- 
-  
  figma,
- 
   starbucks,
   carrent,
   jobit,
@@ -17,7 +14,17 @@ import {
   xd,
   ld,
   p,
-  icon123
+  icon123,
+  img1 ,
+  img2 ,
+  img3 ,
+  img4 ,
+  img5 ,
+  img6 ,
+  img7 ,
+  img8 ,
+  img9 ,
+  img10
 } from "../assets";
 
 export const navLinks = [
@@ -110,128 +117,72 @@ const experiences = [
   },
   {
     title: "Graphic designer",
-    company_name: "Faisal School",
+    company_name: "Nayab academy",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2022 - April 2021",
     points: [
-      "Collaborated with a local school to design print-ready banners.",
-      "Created visually appealing banner designs tailored to school events.",
+      "Produced banners suitable for various school functions and occasions.",
       "Ensured designs met print specifications for high-quality banners.",
+      "Created visually appealing banner designs tailored to school events.",
       "Incorporated school branding and themes into the banner designs.",
       "Worked closely with the school staff to gather design requirements.",
-      "Produced banners suitable for various school functions and occasions.",
-    ],
-  },
-  {
-    title: "Graphic designer",
-    company_name: "Faisal School",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2022 - April 2021",
-    points: [
       "Collaborated with a local school to design print-ready banners.",
-      "Created visually appealing banner designs tailored to school events.",
-      "Ensured designs met print specifications for high-quality banners.",
-      "Incorporated school branding and themes into the banner designs.",
-      "Worked closely with the school staff to gather design requirements.",
-      "Produced banners suitable for various school functions and occasions.",
     ],
   },
+  
  
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Working with Shahzad was an absolute pleasure! Their creative vision brought our brand to life with stunning visuals and captivating designs. They have a keen eye for detail, exceptional communication skills, and a deep understanding of our design needs. We highly recommend [Graphic Designer's Name] for anyone looking to elevate their visual identity.",
+    name: "Sadam Panhwar",
+    company: "Nayab academy",
+    image: "https://scontent.fkhi26-1.fna.fbcdn.net/v/t39.30808-6/310738937_2629454827184777_8780208033791873218_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=etiXesOD7HYAX95zxxy&_nc_ht=scontent.fkhi26-1.fna&oh=00_AfBdnq7fARQYi4feAonLexZWEQMpxBqnf32_0B5ZpTK6tw&oe=6504DD85",
   },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+
 ];
 
 const projects = [
   {
     name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: img1,
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    name: "Car Rent",
+    image: img2,
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    name: "Car Rent",
+    image: img10,
   },
+  {
+    name: "Car Rent",
+    image: img4,
+  },
+  {
+    name: "Car Rent",
+    image: img5,
+  },
+  {
+    name: "Car Rent",
+    image: img6,
+  },
+  {
+    name: "Car Rent",
+    image: img7,
+  },
+  {
+    name: "Car Rent",
+    image: img8,
+  },
+  {
+    name: "Car Rent",
+    image: img9,
+  },
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };

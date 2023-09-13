@@ -8,7 +8,7 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn,textVariant } from '../utils/motion';
 
-const ProjectsCard =({index,name,description,tags,image,source_code_link})=>{
+const ProjectsCard =({index,image,name})=>{
   return(
     <motion.div 
     variants={fadeIn('up','spring',index*0.5,0.75)}
@@ -21,26 +21,12 @@ const ProjectsCard =({index,name,description,tags,image,source_code_link})=>{
         }}
         className='bg-[#172b49] p-5 rounded-2xl sm-w-[100%] width w-[340px]'
         >
-          <div className='relative w-full h-[230px] '>
-           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
-           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-            onClick={()=>{window.open(source_code_link ,'_blank')}}
-            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img src={github} alt="github" className='w-1/2 h-1/2 object-contain' />
-            </div>
-           </div>
+          <div className='relative w-full h-[230px] object-fill'>
+           <img src={image} alt={name} className='w-full object-fill h-full content-center object-cover rounded-2xl' />
+           
+           
           </div>
-          <div className="mt-4">
-            <h1 className='text-white font-bold text-[24px]'>{name}</h1>
-            <p className='text-[#dbd6d6] mt-2  text-[14px]'>{description}</p>
-          </div>
-          <div className="mt-4 flex flex-wrap gap-3 justify-center">
-            {tags.map((tag,index)=>(
-              <p key={tag.name} className={`text-[14px] ${tag.color}`}> #{tag.name}</p>
-            ))}
-          </div>
+         
         </Tilt>
     </motion.div>
   )

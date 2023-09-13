@@ -24,9 +24,9 @@ const Navbar = () => {
             window.scroll(0, 0);
           }}
         >
-          <img src={logo} className="w-18 h-14 object-contain " alt="" />
+          <img src={logo} className="w-18 h-12 object-contain " alt="" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            &nbsp;<span className="sm:block hidden">| Graphics</span>
+            {/* &nbsp;<span className="sm:block hidden">| Graphics</span> */}
           </p>
         </Link>
         <ul className="list-none sm:flex hidden flex-row gap-10">

@@ -17,7 +17,9 @@ const Contact = () => {
 
   const  [ loading,setLoading] = useState(false)
 
-  const handleChange = () =>{}
+  const handleChange = (e) =>{
+    
+  }
 
   const handleSubmit = () =>{}
 
@@ -46,9 +48,9 @@ const Contact = () => {
         <label className='flex flex-col'>
           <span className='text-white font-medium mb-4'>Your email</span>
           <input type="email" 
-          value={form.email}
+          
           name='email'
-          onChange={handleChange}
+          // onChange={handleChange}
           placeholder={`What's your email?`}
         className='bg-tertiary py-4 px-6 placeholder:text-[#a5a3a3] text-white  rounded-lg outline-none border-none font-medium  
         '
@@ -58,9 +60,9 @@ const Contact = () => {
           <span className='text-white font-medium mb-4'>Your Message</span>
           <textarea
           rows={7}
-          value={form.message}
+         
           name='message'
-          onChange={handleChange}
+          // onChange={handleChange}
           placeholder={`What do you say?`}
         className='bg-tertiary py-4 px-6 placeholder:text-[#a5a3a3] text-white  rounded-lg outline-none border-none font-medium  
         '
